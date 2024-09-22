@@ -1,4 +1,4 @@
-## Assignmnet No. 2 from GIAIC
+# Assignmnet No. 2 from GIAIC
 
 This is a assignment of Governer Sindh Initiative Quarter 2 from Batch 1 2024.
 
