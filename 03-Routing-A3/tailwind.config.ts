@@ -11,9 +11,27 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#3490dc", 
+        secondary: "#ffed4a", 
+        danger: "#e3342f",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"], 
+        mono: ["Fira Code", "monospace"],
+      },
+      spacing: {
+        128: "32rem", 
+        144: "36rem",
+      },
+      borderRadius: {
+        xl: "1.5rem", 
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms"), 
+    require("@tailwindcss/typography"), 
+  ],
 };
+
 export default config;
